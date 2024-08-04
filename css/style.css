@@ -1,0 +1,28 @@
+:root {
+  --primary: #fa8b02;
+}
+
+body {
+  font-size: 16px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#home .row {
+  min-height: 85vh;
+}
+
+#home .row .image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: #fa8b02;
+}
+
+#popular {
+  min-height: 50vh;
+}
