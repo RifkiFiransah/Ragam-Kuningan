@@ -29,9 +29,14 @@ a {
   background-color: var(--primary);
 }
 
-.navbar-brand a {
+/* .navbar-brand a {
   font-size: 1rem;
   line-height: 2px;
+} */
+
+.navbar-brand p {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 /* stroke */
@@ -69,8 +74,8 @@ nav ul li a:hover {
 }
 
 #home .tagline p {
-  font-size: 1rem;
-  font-weight: normal;
+  font-size: 0.9rem;
+  font-weight: lighter;
 }
 
 #home .row .decription h1 {
@@ -90,7 +95,7 @@ nav ul li a:hover {
 
 #ragam {
   position: relative;
-  background-color: var(--bg-body);
+  /* background-color: var(--bg-body); */
   min-height: 95vh;
 }
 

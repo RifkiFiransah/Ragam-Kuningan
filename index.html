@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logoRK.png" />
     <title>Ragam Kuningan</title>
     <!-- Fonts -->
     <link
@@ -56,22 +57,17 @@
     <!-- Header -->
     <header id="header">
       <nav
-        class="navbar navbar-expand-lg bg-body-tertiary shadow-sm py-2 fixed-top"
+        class="navbar navbar-expand-lg bg-body-tertiary shadow-sm py-1 fixed-top"
       >
         <div class="container">
-          <div class="navbar-brand row align-items-center g-2">
-            <div class="col-6 text-end">
-              <a href="#">
-                <img
-                  src="./images/logo.png"
-                  class="img-fluid"
-                  width="70px"
-                />
-              </a>
-            </div>
-            <div class="col-6 text-start">
-              <p class="fw-semibold" href="#">Ragam <br />Kuningan</p>
-            </div>
+          <div class="navbar-brand">
+            <a
+              href="#"
+              class="d-flex align-items-center justify-content-center gap-2"
+            >
+              <img src="./images/logoRK.png" height="35px" />
+              <p class="fw-medium" href="#">Ragam <br />Kuningan</p>
+            </a>
           </div>
           <button
             class="navbar-toggler"
@@ -107,7 +103,7 @@
                 <a class="nav-link" href="#galeri">Galeri</a>
               </li>
               <li class="nav-item me-5">
-                <a class="nav-link" href="#">Berita</a>
+                <a class="nav-link" href="#artikel">Artikel</a>
               </li>
             </ul>
           </div>
@@ -126,11 +122,11 @@
           <div
             class="col-md-6 mb-md-0 mb-3 mt-3 mt-md-5 mt-lg-0"
             data-aos="fade-down"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
           >
             <div class="tagline mt-5">
               <p
-                class="badge bg-warning text-white rounded-5 py-md-2 py-1 px-3 px-md-4"
+                class="badge bg-warning text-white rounded-5 py-md-2 py-1 px-2 px-md-3"
               >
                 Jelajahi Pesona Wisata Budaya
               </p>
@@ -144,17 +140,21 @@
                 keterampilan budaya yang menakjubkan.
               </p>
             </div>
-            <div class="cta mt-md-5 mt-4">
+            <div class="cta mt-4">
               <a
                 href=""
-                class="btn btn-warning text-white rounded-3 py-md-3 py-2 px-3 px-md-5 fw-semibold"
-                >Mulai Sekarang</a
-              >
+                class="btn btn-warning text-white rounded-3 py-md-2 py-1 px-3 px-md-4 icon-link icon-link-hover"
+                >Mulai Sekarang <i class="fa-regular fa-arrow-right ms-1 bi"></i
+              ></a>
             </div>
           </div>
           <!-- Gambar Thumbnail -->
-          <div class="col-md-6 d-md-flex justify-content-center">
-            <img src="./images/logoRK.png" alt="" width="200"/>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            class="col-md-6 d-md-flex justify-content-center"
+          >
+            <img src="./images/hero-image.png" alt="" class="img-fluid" />
           </div>
         </div>
       </div>
@@ -168,31 +168,36 @@
           class="row align-items-center gx-5 justify-content-center py-md-5 mx-1 mx-md-0"
         >
           <div
-            class="col-lg-6 mb-5 mb-md-0"
+            class="col-lg-5 mb-5 mb-md-0 d-flex flex-column"
             data-aos="fade-down"
             data-aos-duration="1500"
           >
-            <h3 class="fw-bold text-ragam w-md-50 w-100 mt-5 pt-5">
-              Keragaman Budaya Kabupaten Kuningan
-            </h3>
-            <span class="my-3"></span>
-            <p class="text-muted w-md-75">
-              Hayati pesona Kabupaten Kuningan melalui ragam budaya yang kaya.
-              Dari tarian tradisional yang memukau hingga upacara adat yang
-              sarat makna, setiap sudut kota ini menyimpan cerita unik. Nikmati
-              keindahan seni, kuliner khas, dan keramahan masyarakat Kuningan
-              yang akan membuat Anda takjub.
-              <br /><br />
-              Kunjungi Kuningan dan temukan pengalaman budaya yang tak
-              terlupakan.
+            <p class="text-uppercase fw-semibold text-warning mb-1">
+              Ragam Budaya
             </p>
-            <a
+            <h2 class="fw-bolder mb-4">Keragaman Budaya Kabupaten Kuningan</h2>
+            <!-- <span class="my-3"></span> -->
+            <div class="text-muted w-md-75">
+              <p>
+                Hayati pesona Kabupaten Kuningan melalui ragam budaya yang kaya.
+                Dari tarian tradisional yang memukau hingga upacara adat yang
+                sarat makna, setiap sudut kota ini menyimpan cerita unik.
+              </p>
+              <p>
+                Nikmati keindahan seni, kuliner khas, dan keramahan masyarakat
+                Kuningan yang akan membuat Anda takjub.
+
+                <!-- Kunjungi Kuningan dan temukan pengalaman budaya yang tak
+                 terlupakan. -->
+              </p>
+            </div>
+            <!-- <a
               href=""
               class="btn btn-warning px-md-4 py-md-2 fs-md-6 rounded-5 my-md-3 text-center text-white fw--md-semibold"
               >Lebih Banyak</a
-            >
+            > -->
           </div>
-          <div class="col-lg-6 mb-5 mb-md-0">
+          <div class="col-lg-7 mb-5 mb-md-0">
             <div
               class="row g-3 g-md-5 justify-content-center align-items-center mb-md-3 mb-5 mt-md-0"
             >
@@ -203,12 +208,12 @@
                 data-aos-delay="200"
                 data-aos-duration="1000"
               >
-                <div class="card shadow border-0 card-1">
-                  <div class="card-body py-4 px-3">
+                <div class="card border card-1 rounded-4">
+                  <div class="card-body p-3">
                     <i
-                      class="fa-sharp fa-regular fa-person-dress-fairy fs-1"
+                      class="fa-thin fa-person-dress-fairy fs-3 bg-warning p-3 rounded-3 text-white"
                     ></i>
-                    <h6 class="card-title my-3">Tarian Tradisional</h6>
+                    <h6 class="card-title mt-3">Tarian Tradisional</h6>
                     <p class="card-text text-muted fs-md-6">
                       Saksikan keindahan tarian tradisional Kuningan yang
                       mengandung makna mencerminkan kekayaan budaya lokal.
@@ -223,10 +228,12 @@
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <div class="card shadow border-0">
-                  <div class="card-body py-4 px-3">
-                    <i class="fa-sharp fa-regular fa-atom fs-1"></i>
-                    <h6 class="card-title my-3">Agama</h6>
+                <div class="card border rounded-4">
+                  <div class="card-body p-3">
+                    <i
+                      class="fa-thin fa-atom fs-3 bg-warning p-3 rounded-3 text-white"
+                    ></i>
+                    <h6 class="card-title mt-3">Agama</h6>
                     <p class="card-text text-muted fs-md-6">
                       Seluruh masyarakat Kabupaten Kuningan yang selalu
                       menjunjung tinggi nilai-nilai toleransi Keagamaan.
@@ -241,10 +248,12 @@
                 data-aos-delay="400"
                 data-aos-duration="1000"
               >
-                <div class="card shadow border-0 card-1">
-                  <div class="card-body py-4 px-3">
-                    <i class="fa-regular fa-users fs-1"></i>
-                    <h6 class="card-title my-3">Upacara Adat Kuningan</h6>
+                <div class="card border card-1 rounded-4">
+                  <div class="card-body p-3">
+                    <i
+                      class="fa-thin fa-users fs-3 bg-warning p-3 rounded-3 text-white"
+                    ></i>
+                    <h6 class="card-title mt-3">Upacara Adat Kuningan</h6>
                     <p class="card-text text-muted fs-md-6">
                       Warisan Leluhur yang masih hidup. Merasakan pengalaman
                       unik menyaksikan upacara adat.
@@ -259,9 +268,11 @@
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
-                <div class="card shadow border-0">
-                  <div class="card-body py-4 px-3">
-                    <i class="fa-regular fa-pot-food fs-1"></i>
+                <div class="card border rounded-4">
+                  <div class="card-body p-3">
+                    <i
+                      class="fa-thin fa-pot-food fs-3 bg-warning p-3 rounded-3 text-white"
+                    ></i>
                     <h6 class="card-title my-3">Kuliner Khas Kuningan</h6>
                     <p class="card-text text-muted fs-md-6">
                       Perpaduan Rasa yang menggoda dengan beragam kuliner khas
@@ -326,7 +337,7 @@
         </div>
         <!-- Modal -->
         <div
-          class="modal fade"
+          class="modal modal-lg fade"
           id="budaya-1"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
@@ -351,7 +362,7 @@
                 <div>
                   <iframe
                     width="100%"
-                    height="255"
+                    height="330"
                     src="https://www.youtube.com/embed/swqng4TvYvY?si=YD4ouvLsiLb1E-cB"
                     title="YouTube video player"
                     frameborder="0"
@@ -423,7 +434,7 @@
         </div>
         <!-- Modal -->
         <div
-          class="modal fade"
+          class="modal modal-lg fade"
           id="budaya-2"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
@@ -448,7 +459,7 @@
                 <div>
                   <iframe
                     width="100%"
-                    height="255"
+                    height="330"
                     src="https://www.youtube.com/embed/uuKonwGYGPo?si=rnCNeyybES8DhjP8"
                     title="YouTube video player"
                     frameborder="0"
@@ -521,7 +532,7 @@
         </div>
         <!-- Modal -->
         <div
-          class="modal fade"
+          class="modal modal-lg fade"
           id="budaya-3"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
@@ -546,7 +557,7 @@
                 <div>
                   <iframe
                     width="100%"
-                    height="255"
+                    height="330"
                     src="https://www.youtube.com/embed/KPK_3HKAGGM?si=JmTt5xXYRv0okkGo"
                     title="YouTube video player"
                     frameborder="0"
@@ -622,7 +633,7 @@
         </div>
         <!-- Modal -->
         <div
-          class="modal fade"
+          class="modal modal-lg fade"
           id="budaya-4"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
@@ -647,7 +658,7 @@
                 <div>
                   <iframe
                     width="100%"
-                    height="255"
+                    height="330"
                     src="https://www.youtube.com/embed/nIZnHLH2isE?si=ZXAa52R_b7sX1MU0"
                     title="YouTube video player"
                     frameborder="0"
@@ -714,7 +725,7 @@
         </div>
         <!-- Modal -->
         <div
-          class="modal fade"
+          class="modal modal-lg fade"
           id="budaya-5"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
@@ -739,7 +750,7 @@
                 <div>
                   <iframe
                     width="100%"
-                    height="255"
+                    height="330"
                     src="https://www.youtube.com/embed/_OItdeQkl-U?si=Tee6e-jf0xzNVe7v"
                     title="YouTube video player"
                     frameborder="0"
@@ -805,7 +816,7 @@
         </div>
         <!-- Modal -->
         <div
-          class="modal fade"
+          class="modal modal-lg fade"
           id="budaya-6"
           tabindex="-1"
           aria-labelledby="exampleModalLabel"
@@ -830,7 +841,7 @@
                 <div>
                   <iframe
                     width="100%"
-                    height="255"
+                    height="330"
                     src="https://www.youtube.com/embed/nimsqMmOr2Q?si=WatuXA41ui2ztXBK"
                     title="YouTube video player"
                     frameborder="0"
@@ -1114,26 +1125,46 @@
     </section>
     <!-- End Gallery -->
 
-     <!-- Start Sejarah -->
-  <section id="sejarah" class="sejarah py-5">
-    <div class="container-fluid mt-5 mb-5">
-      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5 ">
-        <div class="col-md-5 col-lg-5 col-xl-3">
-          <img src="./images/Sejarah-kng.jpg" class="img-fluid rounded w-100 object-fit-cover" alt="" />
-        </div>
-        <div class="col-md-7 col-lg-5">
-          <h2 class=" text-center text-md-start fs-6 fw-semibold text-warning">SEJARAH KUNINGAN</h2>
-          <h2 class="text-center text-md-start mb-2 fw-bolder">Mengenal Sejarah Kebudayaan </h2>
-          <div class=" text-md-start">
-            <p >
-              <b>Sejara Kuningan</b> 
-              Kabupaten Kuningan adalah sebuah wilayah yang berada di bagian Timur Provinsi Jawa Barat. Kabupaten ini memiliki rentang sejarah yang cukup panjang dan erat kaitannya dengan proses penyebaran agama Islam yang dilakukan dari Cirebon. Oleh karena itu, perjalanan sejarah Kuningan dan bahkan awal mula munculnya nama “Kuningan” sangat erat kaitannya dengan Cirebon. Meskipun demikian, jauh sebelum masuknya pengaruh Islam di daerah ini telah terdapat komunitas masyarakat dalam bentuk pemerintahan. Setelah masuknya Islam daerah ini kemudian menggunakan nama Kuningan sebagai identitas daerah.</p>
+    <!-- Start Sejarah -->
+    <section id="sejarah" class="sejarah py-5">
+      <div class="container-fluid mt-5 mb-5">
+        <div
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5"
+        >
+          <div class="col-md-5 col-lg-5 col-xl-3">
+            <img
+              src="./images/Sejarah-kng.jpg"
+              class="img-fluid rounded w-100 object-fit-cover"
+              alt=""
+            />
+          </div>
+          <div class="col-md-7 col-lg-5">
+            <h2 class="text-center text-md-start fs-6 fw-semibold text-warning">
+              SEJARAH KUNINGAN
+            </h2>
+            <h2 class="text-center text-md-start mb-2 fw-bolder">
+              Mengenal Sejarah Kebudayaan
+            </h2>
+            <div class="text-md-start">
+              <p>
+                <b>Sejara Kuningan</b>
+                Kabupaten Kuningan adalah sebuah wilayah yang berada di bagian
+                Timur Provinsi Jawa Barat. Kabupaten ini memiliki rentang
+                sejarah yang cukup panjang dan erat kaitannya dengan proses
+                penyebaran agama Islam yang dilakukan dari Cirebon. Oleh karena
+                itu, perjalanan sejarah Kuningan dan bahkan awal mula munculnya
+                nama “Kuningan” sangat erat kaitannya dengan Cirebon. Meskipun
+                demikian, jauh sebelum masuknya pengaruh Islam di daerah ini
+                telah terdapat komunitas masyarakat dalam bentuk pemerintahan.
+                Setelah masuknya Islam daerah ini kemudian menggunakan nama
+                Kuningan sebagai identitas daerah.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Sejarah -->
+    </section>
+    <!-- End Sejarah -->
 
     <!-- Testimonial -->
     <div id="testimonial pb-5">
@@ -1355,117 +1386,361 @@
     </div>
     <!-- End Testimonial -->
 
-      <!-- Start Footers -->
-  <footer>
-    <div class="container-fluid py-5 px-3 px-sm-5">
-      <div class="row gap-3">
-        <div class="col-12 col-sm-10 col-md-5 col-lg-5 mb-5 mb-md-0">
-          <a
-            class="navbar-brand fw-bold fs-4 text-light font-serif"
-            href="./index.html"
-          >
-            RagamKuningan
-          </a>
-          <p class="mt-2 mb-4 text-white">
-            Kunjungi Kuningan temukan keindahan wisata alam yang memukau dan keterampilan budaya yang menakjubkan.
-          </p>
-          <div class="d-flex gap-3">
-            <a class="btn btn-light" href="#"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
-            <a class="btn btn-light" href="#"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-            <a class="btn btn-light" href="#"
-              ><i class="fa-brands fa-youtube"></i
-            ></a>
+    <!-- News Section -->
+    <section
+      id="artikel"
+      class="container py-5 d-flex flex-column justify-content-center min-vh-100"
+    >
+      <div
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        class="d-flex flex-column mb-5"
+      >
+        <p class="text-uppercase fw-semibold text-warning mb-1">
+          Artikel Budaya
+        </p>
+        <h2 class="fw-bolder">Artikel Kegiatan Budaya</h2>
+      </div>
+      <div class="row g-3">
+        <div class="col">
+          <div class="d-flex flex-column gap-3">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="event-card rounded-3 overflow-hidden"
+            >
+              <div class="col col-lg-3 col-xl-4">
+                <img
+                  src="./images/budaya-1.jpeg"
+                  class="event-card-image img-fluid rounded-3 mb-3 mb-lg-0 object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col col-lg-9 col-xl-8">
+                <div class="card-body">
+                  <h4
+                    class="event-card-title card-title fw-bold text-warning mb-2 mb-md-1"
+                  >
+                    Babarit
+                  </h4>
+                  <p class="event-card-text card-text mb-2 mb-md-2 w-75">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn p-0 border-0 text-warning text-decoration-none icon-link icon-link-hover"
+                    data-bs-toggle="modal"
+                    data-bs-target="#budaya-1"
+                  >
+                    Lihat Selengkapnya
+                    <i class="fa-regular fa-arrow-right ms-1 bi"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              class="event-card rounded-3 overflow-hidden"
+            >
+              <div class="col col-lg-3 col-xl-4">
+                <img
+                  src="./images/budaya-1.jpeg"
+                  class="event-card-image img-fluid rounded-3 mb-3 mb-lg-0 object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col col-lg-9 col-xl-8">
+                <div class="card-body">
+                  <h4
+                    class="event-card-title card-title fw-bold text-warning mb-2 mb-md-1"
+                  >
+                    Babarit
+                  </h4>
+                  <p class="event-card-text card-text mb-2 mb-md-2 w-75">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn p-0 border-0 text-warning text-decoration-none icon-link icon-link-hover"
+                    data-bs-toggle="modal"
+                    data-bs-target="#budaya-1"
+                  >
+                    Lihat Selengkapnya
+                    <i class="fa-regular fa-arrow-right ms-1 bi"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+              class="event-card rounded-3 overflow-hidden"
+            >
+              <div class="col col-lg-3 col-xl-4">
+                <img
+                  src="./images/budaya-1.jpeg"
+                  class="event-card-image img-fluid rounded-3 mb-3 mb-lg-0 object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col col-lg-9 col-xl-8">
+                <div class="card-body">
+                  <h4
+                    class="event-card-title card-title fw-bold text-warning mb-2 mb-md-1"
+                  >
+                    Babarit
+                  </h4>
+                  <p class="event-card-text card-text mb-2 mb-md-2 w-75">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn p-0 border-0 text-warning text-decoration-none icon-link icon-link-hover"
+                    data-bs-toggle="modal"
+                    data-bs-target="#budaya-1"
+                  >
+                    Lihat Selengkapnya
+                    <i class="fa-regular fa-arrow-right ms-1 bi"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-sm-10 col-md-5 col-lg-2 mb-5 mb-md-0">
-          <h5 class="text-uppercase text-white font-sans-serif">Menu</h5>
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#hero" class="text-light text-decoration-none"
-                >Beranda</a
-              >
-            </li>
-            <li>
-              <a href="#layanan" class="text-light text-decoration-none"
-                >Destinasi</a
-              >
-            </li>
-            <li>
-              <a href="#acara" class="text-light text-decoration-none"
-                >Acara</a
-              >
-            </li>
-            <li>
-              <a href="#galeri" class="text-light text-decoration-none"
-                >Galeri</a
-              >
-            </li>
-            <li>
-              <a href="#berita" class="text-light text-decoration-none"
-                >Berita</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-10 col-md-5 col-lg-2 mb-5 mb-md-0">
-          <h5 class="text-uppercase text-white font-sans-serif">Kategori</h5>
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#produk" class="text-light text-decoration-none"
-                >Produk Kami</a
-              >
-            </li>
-            <li>
-              <a href="#kategori" class="text-light text-decoration-none"
-                >Kategori Produk</a
-              >
-            </li>
-            <li>
-              <a href="#rekomendasi" class="text-light text-decoration-none"
-                >Produk Terbaik</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-10 col-md-5 col-lg-2 mb-5 mb-md-0">
-          <h5 class="text-uppercase text-white font-sans-serif">
-            Tentang Kami
-          </h5>
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-light text-decoration-none">Lokasi</a>
-            </li>
-            <li>
-              <a href="#testimonial" class="text-light text-decoration-none"
-                >Testimoni</a
-              >
-            </li>
-            <li>
-              <a href="#contacts" class="text-light text-decoration-none"
-                >Kontak Kami</a
-              >
-            </li>
-          </ul>
+        <div class="col">
+          <div class="d-flex flex-column gap-3">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              class="event-card rounded-3 overflow-hidden"
+            >
+              <div class="col col-lg-3 col-xl-4">
+                <img
+                  src="./images/budaya-1.jpeg"
+                  class="event-card-image img-fluid rounded-3 mb-3 mb-lg-0 object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col col-lg-9 col-xl-8">
+                <div class="card-body">
+                  <h4
+                    class="event-card-title card-title fw-bold text-warning mb-2 mb-md-1"
+                  >
+                    Babarit
+                  </h4>
+                  <p class="event-card-text card-text mb-2 mb-md-2 w-75">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn p-0 border-0 text-warning text-decoration-none icon-link icon-link-hover"
+                    data-bs-toggle="modal"
+                    data-bs-target="#budaya-1"
+                  >
+                    Lihat Selengkapnya
+                    <i class="fa-regular fa-arrow-right ms-1 bi"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-duration="1000"
+              class="event-card rounded-3 overflow-hidden"
+            >
+              <div class="col col-lg-3 col-xl-4">
+                <img
+                  src="./images/budaya-1.jpeg"
+                  class="event-card-image img-fluid rounded-3 mb-3 mb-lg-0 object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col col-lg-9 col-xl-8">
+                <div class="card-body">
+                  <h4
+                    class="event-card-title card-title fw-bold text-warning mb-2 mb-md-1"
+                  >
+                    Babarit
+                  </h4>
+                  <p class="event-card-text card-text mb-2 mb-md-2 w-75">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn p-0 border-0 text-warning text-decoration-none icon-link icon-link-hover"
+                    data-bs-toggle="modal"
+                    data-bs-target="#budaya-1"
+                  >
+                    Lihat Selengkapnya
+                    <i class="fa-regular fa-arrow-right ms-1 bi"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+              class="event-card rounded-3 overflow-hidden"
+            >
+              <div class="col col-lg-3 col-xl-4">
+                <img
+                  src="./images/budaya-1.jpeg"
+                  class="event-card-image img-fluid rounded-3 mb-3 mb-lg-0 object-fit-cover"
+                  alt="..."
+                />
+              </div>
+              <div class="col col-lg-9 col-xl-8">
+                <div class="card-body">
+                  <h4
+                    class="event-card-title card-title fw-bold text-warning mb-2 mb-md-1"
+                  >
+                    Babarit
+                  </h4>
+                  <p class="event-card-text card-text mb-2 mb-md-2 w-75">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn p-0 border-0 text-warning text-decoration-none icon-link icon-link-hover"
+                    data-bs-toggle="modal"
+                    data-bs-target="#budaya-1"
+                  >
+                    Lihat Selengkapnya
+                    <i class="fa-regular fa-arrow-right ms-1 bi"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="text-center p-3 border-top">
-      <p class="text-white">
-        &copy;
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
-        Copyright by
-        <span>R2C</span> All
-        Right Reserved
-      </p>
-    </div>
-  </footer>
-  <!-- End Footers -->
+    </section>
+    <!-- End News -->
+
+    <!-- Start Footers -->
+    <footer>
+      <div class="container-fluid py-5 px-3 px-sm-5">
+        <div class="row gap-3">
+          <div class="col-12 col-sm-10 col-md-5 col-lg-5 mb-5 mb-md-0">
+            <a
+              class="navbar-brand fw-bold fs-4 text-light font-serif"
+              href="./index.html"
+            >
+              RagamKuningan
+            </a>
+            <p class="mt-2 mb-4 text-white">
+              Kunjungi Kuningan temukan keindahan wisata alam yang memukau dan
+              keterampilan budaya yang menakjubkan.
+            </p>
+            <div class="d-flex gap-3">
+              <a class="btn btn-light text-warning" href="#"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a class="btn btn-light text-warning" href="#"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a class="btn btn-light text-warning" href="#"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-10 col-md-5 col-lg-2 mb-5 mb-md-0">
+            <h5 class="text-uppercase text-white font-sans-serif">Menu</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#hero" class="text-light text-decoration-none"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a href="#layanan" class="text-light text-decoration-none"
+                  >Destinasi</a
+                >
+              </li>
+              <li>
+                <a href="#acara" class="text-light text-decoration-none"
+                  >Acara</a
+                >
+              </li>
+              <li>
+                <a href="#galeri" class="text-light text-decoration-none"
+                  >Galeri</a
+                >
+              </li>
+              <li>
+                <a href="#berita" class="text-light text-decoration-none"
+                  >Berita</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-10 col-md-5 col-lg-2 mb-5 mb-md-0">
+            <h5 class="text-uppercase text-white font-sans-serif">Kategori</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#produk" class="text-light text-decoration-none"
+                  >Produk Kami</a
+                >
+              </li>
+              <li>
+                <a href="#kategori" class="text-light text-decoration-none"
+                  >Kategori Produk</a
+                >
+              </li>
+              <li>
+                <a href="#rekomendasi" class="text-light text-decoration-none"
+                  >Produk Terbaik</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-10 col-md-5 col-lg-2 mb-5 mb-md-0">
+            <h5 class="text-uppercase text-white font-sans-serif">
+              Tentang Kami
+            </h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-light text-decoration-none">Lokasi</a>
+              </li>
+              <li>
+                <a href="#testimonial" class="text-light text-decoration-none"
+                  >Testimoni</a
+                >
+              </li>
+              <li>
+                <a href="#contacts" class="text-light text-decoration-none"
+                  >Kontak Kami</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3 border-top">
+        <p class="text-white">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Copyright by
+          <span>R2C</span> All Right Reserved
+        </p>
+      </div>
+    </footer>
+    <!-- End Footers -->
 
     <!-- Bootstrap JS -->
     <script
