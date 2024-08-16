@@ -151,7 +151,9 @@ nav ul li a:hover {
   min-height: 110vh;
   background-color: var(--bg-body);
 }
-
+footer{
+  background-color: var(--primary);
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .destination-card {
