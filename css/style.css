@@ -156,7 +156,7 @@ nav ul li a:hover {
   min-height: 110vh;
   background-color: var(--bg-body);
 }
-footer{
+footer {
   background-color: var(--primary);
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -287,6 +287,10 @@ footer{
   #ragam .row .row .card-1 {
     position: inherit;
   }
+
+  #sejarah p {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -318,5 +322,13 @@ footer{
     height: 200px;
     border-radius: 50%;
     background-color: #fa8b02;
+  }
+
+  #artikel .event-card-title {
+    font-size: 1rem;
+  }
+
+  #artikel .event-card-text {
+    font-size: 0.9rem;
   }
 }
